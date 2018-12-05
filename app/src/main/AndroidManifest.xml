@@ -14,9 +14,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.Dashboardctivity"
-            android:label="@string/title_activity_dashboardctivity">
-
-        </activity>
+            android:label="@string/title_activity_dashboardctivity"></activity>
         <activity
             android:name=".activity.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -26,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.LoginActivity"></activity>
     </application>
 
 </manifest>

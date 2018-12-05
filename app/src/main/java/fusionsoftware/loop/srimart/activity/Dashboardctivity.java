@@ -24,7 +24,6 @@ public class Dashboardctivity extends AppCompatActivity
         setContentView(R.layout.activity_dashboardctivity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
