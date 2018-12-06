@@ -3,6 +3,7 @@
     package="fusionsoftware.loop.srimart">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:name=".framework.AppController"
         android:allowBackup="true"
@@ -12,8 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".DashboardActivity"
-            android:label="@string/app_name">
+            android:name=".activity.Dashboardctivity"
+            android:label="@string/title_activity_dashboardctivity">
+
+        </activity>
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
