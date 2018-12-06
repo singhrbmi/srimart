@@ -15,13 +15,13 @@ import android.view.MenuItem;
 
 import fusionsoftware.loop.srimart.R;
 
-public class Dashboardctivity extends AppCompatActivity
+public class DashboardActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboardctivity);
+        setContentView(R.layout.activity_dashboardactivity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
